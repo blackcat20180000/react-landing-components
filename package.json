@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "babel-polyfill": "^6.7.2",
-    "bootstrap-sass": "^3.3.7",
+	"bootstrap": ">4.0.0-alpha",
     "classnames": "2.x.x"
   },
   "peerDependencies": {
