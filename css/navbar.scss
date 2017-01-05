@@ -21,7 +21,7 @@ nav.neal-navbar {
     &:first-child { padding-left: 0; }
   }
 
-  a.nav-link { 
+  a.nav-link {
     @include nav-link;
 
   }
@@ -29,6 +29,12 @@ nav.neal-navbar {
   a.navbar-brand {
     font-weight: 900;
     color: $neal-navbar-brand-color;
+  }
+
+  @include media-breakpoint-down(md) {
+	  a.navbar-brand {
+		  float: none;
+	  }
   }
 
   .dropdown-menu {

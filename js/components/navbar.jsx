@@ -17,7 +17,7 @@ export class Navbar extends React.Component {
               data-target="#mobile-nav">
               &#9776;
             </button>
-            <a className="navbar-brand hidden-sm-down" href="/">{this.props.brand}</a>
+            <a className="navbar-brand" href="/">{this.props.brand}</a>
             <div className="navbar-toggleable-sm hidden-sm-down" id="header-nav">
               <ul className="nav navbar-nav pull-right">
                 {this.props.children}
