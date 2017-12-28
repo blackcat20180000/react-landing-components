@@ -8,43 +8,43 @@
 
 Main components:
 
-- [`App`](https://github.com/dennybritz/neal-react/blob/master/js/components/app.jsx)
-- [`Code`](https://github.com/dennybritz/neal-react/blob/master/js/components/code.jsx)
-- [`CustomerQuotes`](https://github.com/dennybritz/neal-react/blob/master/js/components/customer-quotes.jsx)
-- [`Countdown`](https://github.com/dennybritz/neal-react/blob/master/js/components/countdown.jsx)
-- [`Footer`](https://github.com/dennybritz/neal-react/blob/master/js/components/footer.jsx)
-- [`Figure`](https://github.com/dennybritz/neal-react/blob/master/js/components/figure.jsx)
-- [`Hero`](https://github.com/dennybritz/neal-react/blob/master/js/components/hero.jsx)
-- [`HorizontalSplit`](https://github.com/dennybritz/neal-react/blob/master/js/components/horizontal-split.jsx)
-- [`ImageList`](https://github.com/dennybritz/neal-react/blob/master/js/components/image-list.jsx)
-- [`Navbar`](https://github.com/dennybritz/neal-react/blob/master/js/components/navbar.jsx)
-- [`Page`](https://github.com/dennybritz/neal-react/blob/master/js/components/page.jsx)
-- [`PricingTable`](https://github.com/dennybritz/neal-react/blob/master/js/components/pricing-table.jsx)
-- [`Section`](https://github.com/dennybritz/neal-react/blob/master/js/components/section.jsx)
-- [`SignupInline`](https://github.com/dennybritz/neal-react/blob/master/js/components/signup-inline.jsx)
-- [`SignupModal`](https://github.com/dennybritz/neal-react/blob/master/js/components/signup-modal.jsx)
-- [`Team`](https://github.com/dennybritz/neal-react/blob/master/js/components/team.jsx)
+- [`App`](https://github.com/ilyaLibin/react-landing-components/blob/master/js/components/app.jsx)
+- [`Code`](https://github.com/ilyaLibin/react-landing-components/blob/master/js/components/code.jsx)
+- [`CustomerQuotes`](https://github.com/ilyaLibin/react-landing-components/blob/master/js/components/customer-quotes.jsx)
+- [`Countdown`](https://github.com/ilyaLibin/react-landing-components/blob/master/js/components/countdown.jsx)
+- [`Footer`](https://github.com/ilyaLibin/react-landing-components/blob/master/js/components/footer.jsx)
+- [`Figure`](https://github.com/ilyaLibin/react-landing-components/blob/master/js/components/figure.jsx)
+- [`Hero`](https://github.com/ilyaLibin/react-landing-components/blob/master/js/components/hero.jsx)
+- [`HorizontalSplit`](https://github.com/ilyaLibin/react-landing-components/blob/master/js/components/horizontal-split.jsx)
+- [`ImageList`](https://github.com/ilyaLibin/react-landing-components/blob/master/js/components/image-list.jsx)
+- [`Navbar`](https://github.com/ilyaLibin/react-landing-components/blob/master/js/components/navbar.jsx)
+- [`Page`](https://github.com/ilyaLibin/react-landing-components/blob/master/js/components/page.jsx)
+- [`PricingTable`](https://github.com/ilyaLibin/react-landing-components/blob/master/js/components/pricing-table.jsx)
+- [`Section`](https://github.com/ilyaLibin/react-landing-components/blob/master/js/components/section.jsx)
+- [`SignupInline`](https://github.com/ilyaLibin/react-landing-components/blob/master/js/components/signup-inline.jsx)
+- [`SignupModal`](https://github.com/ilyaLibin/react-landing-components/blob/master/js/components/signup-modal.jsx)
+- [`Team`](https://github.com/ilyaLibin/react-landing-components/blob/master/js/components/team.jsx)
 
 Third-Party integrations
 
-- [`GoogleAnalytics`](https://github.com/dennybritz/neal-react/blob/master/js/components/vendor/google-analytics.jsx)
-- [`Segment`](https://github.com/dennybritz/neal-react/blob/master/js/components/vendor/segment.jsx)
-- [`Stripe`](https://github.com/dennybritz/neal-react/blob/master/js/components/vendor/stripe.jsx)
-- [`Typeform`](https://github.com/dennybritz/neal-react/blob/master/js/components/vendor/typeform.jsx)
+- [`GoogleAnalytics`](https://github.com/ilyaLibin/react-landing-components/blob/master/js/components/vendor/google-analytics.jsx)
+- [`Segment`](https://github.com/ilyaLibin/react-landing-components/blob/master/js/components/vendor/segment.jsx)
+- [`Stripe`](https://github.com/ilyaLibin/react-landing-components/blob/master/js/components/vendor/stripe.jsx)
+- [`Typeform`](https://github.com/ilyaLibin/react-landing-components/blob/master/js/components/vendor/typeform.jsx)
 
 
 ## Documentation
 
-The best way to learn about the components is to look at the [code for the sample page](https://github.com/dennybritz/neal-sample/blob/master/js/sample-page.jsx). But, basically:
+The best way to learn about the components is to look at the [code for the sample page](https://github.com/ilyaLibin/neal-sample/blob/master/js/sample-page.jsx). But, basically:
 
 ```bash
-npm install --save neal-react
+npm install --save react-landing-components
 ```
 
 ```javascript
 import React from "react";
 import ReactDOM from "react-dom";
-import { App, Page, Section, Hero, Navbar, HorizontalSplit } from "neal-react";
+import { App, Page, Section, Hero, Navbar, HorizontalSplit } from "react-landing-components";
 
 ReactDOM.render((
   <App googleAnalyticsKey="UA-42490151-3">
@@ -75,7 +75,7 @@ Other dependencies that should be included from a CDN:
 
 ## Custom Styling
 
-Styling can be overwritten by setting the [appropriate SASS Variables](https://github.com/dennybritz/neal-react/blob/master/css/_variables.scss) in your code.
+Styling can be overwritten by setting the [appropriate SASS Variables](https://github.com/ilyaLibin/react-landing-components/blob/master/css/_variables.scss) in your code.
 
 ```bash
 #! /usr/bin/env bash

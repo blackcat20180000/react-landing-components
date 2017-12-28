@@ -1,8 +1,8 @@
 {
-  "name": "neal-react",
+  "name": "react-landing-components",
   "version": "0.2.5",
   "description": "react components for startup landing pages.",
-  "repository": "https://github.com/dennybritz/neal-react",
+  "repository": "https://github.com/ilyaLibin/react-landing-components",
   "main": "build/app.js",
   "scripts": {
     "clean": "rimraf ./build",
@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --ext js,jsx js/"
   },
-  "author": "Denny Britz",
+  "author": "Ilya Libin",
   "license": "ISC",
   "dependencies": {
     "babel-polyfill": "^6.7.2",
@@ -20,7 +20,8 @@
     "prop-types": "^15.6.0"
   },
   "peerDependencies": {
-    "react": ">=0.14.7 || >15.0.0-rc"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "devDependencies": {
     "babel-cli": "^6.5.1",
