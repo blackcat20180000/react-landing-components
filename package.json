@@ -1,6 +1,6 @@
 {
   "name": "react-landing-components",
-  "version": "0.2.5",
+  "version": "0.2.7",
   "description": "react components for startup landing pages.",
   "repository": "https://github.com/ilyaLibin/react-landing-components",
   "main": "build/app.js",
@@ -17,6 +17,7 @@
     "babel-polyfill": "^6.7.2",
     "bootstrap": ">4.0.0-alpha",
     "classnames": "2.x.x",
+    "popover": "^2.4.1",
     "prop-types": "^15.6.0"
   },
   "peerDependencies": {
