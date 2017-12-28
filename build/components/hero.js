@@ -13,6 +13,10 @@ var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
 
+var _propTypes = require("prop-types");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
 var _bootstrap = require("../helpers/bootstrap");
 
 var _classnames = require("classnames");
@@ -60,5 +64,5 @@ var Hero = exports.Hero = function (_React$Component) {
 }(_react2.default.Component);
 
 Hero.propTypes = {
-  backgroundImage: _react2.default.PropTypes.string
+  backgroundImage: _propTypes2.default.string
 };
