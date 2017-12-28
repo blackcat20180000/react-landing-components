@@ -1,13 +1,9 @@
-# neal-react
+# react-landing-components
 
-`neal-react` is a collection of reactjs components to quickly build landing pages. I found that using hosted services like Launchrock doesn't give me enough flexibility, but frameworks like Bootstrap are too low-level and lead to lots of repetitive code. I wanted something in between these two extremees.
+`react-landing-components` is a collection of reactjs components to quickly build landing pages. I found that using hosted services like Launchrock doesn't give me enough flexibility, but frameworks like Bootstrap are too low-level and lead to lots of repetitive code. I wanted something in between these two extremees.
 
 
 ## Visit the Sample Page
-
-- [Hosted Sample Page](http://www.nealjs.com)
-- [Sample Page Code on Github](https://github.com/dennybritz/neal-sample)
-
 ## Available Components
 
 Main components:
@@ -80,15 +76,6 @@ Other dependencies that should be included from a CDN:
 ## Custom Styling
 
 Styling can be overwritten by setting the [appropriate SASS Variables](https://github.com/dennybritz/neal-react/blob/master/css/_variables.scss) in your code.
-
-## Using with [Structor](https://github.com/ipselon/structor)
-
-Structor is a visual development environment for node.js web applications with React UI. You can find a boilerplate project for neal on the [Structor Marketplace](http://helmetrex.com/) and the corresponding code in [this repository](https://github.com/ipselon/neal-react-prepack). A big thanks to [ispelon](https://github.com/ipselon) for implementing this.
-
-## Deploying to AWS
-
-If you are using third-party integrations like Stripe or Typeform to capture user information there is no need to write your on backend and you can simply copy your `public/` directory to an AWS S3 bucket and enable [Static Website Hosting](http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html). You can use a script such as this to minifify and upload:
-
 
 ```bash
 #! /usr/bin/env bash
