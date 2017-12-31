@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from 'prop-types';
 import classNames from "classnames";
 import { HorizontalSplit } from "./index";
+import '../../css/pricing-table.scss';
 
 export class PricingTable extends React.Component {
   render() {

@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import classNames from "classnames";
-
+import '../../css/image-list.scss';
 export class ImageList extends React.Component {
 
   static propTypes = {
