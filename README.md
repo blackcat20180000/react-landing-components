@@ -76,17 +76,3 @@ Other dependencies that should be included from a CDN:
 ## Custom Styling
 
 Styling can be overwritten by setting the [appropriate SASS Variables](https://github.com/ilyaLibin/react-landing-components/blob/master/css/_variables.scss) in your code.
-
-```bash
-#! /usr/bin/env bash
-
-S3_BUCKET=s3://www.nealjs.com
-BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../" && pwd)"
-cd $BASE_DIR
-
-# Build the assets
-webpack -p
-
-# Upload to S3
-aws s3 cp $BASE_DIR/public/ $S3_BUCKET --recursive
-```
